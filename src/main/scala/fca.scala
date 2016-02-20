@@ -89,7 +89,7 @@ object NextClosure {
 
     println("Starting NEXT CLOSURE...\n")
     println(s"M: $m")
-    println(s"Number of intents: $attrCnt\n")
+    println(s"Number of attributes: $attrCnt\n")
 
     while (intents.head != m) {
       def go(i: Int): Unit = {
