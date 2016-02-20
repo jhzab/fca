@@ -1,0 +1,1 @@
+# Trivial next closure implementation
