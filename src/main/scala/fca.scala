@@ -45,7 +45,7 @@ object NextClosure {
   /* TODO: handle empty intent */
   def computePrimeFromI(fc: FormalContext, intent: Intent): Extent = {
     if (intent.isEmpty)
-      (1 to (fc.size)).toVector
+      (0 until (fc.size)).toVector
     else {
       val intentSet = intent.toSet
       val intentSetSize = intentSet.size
