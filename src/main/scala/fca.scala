@@ -1,7 +1,7 @@
 object DataTypes {
   type Extent = Vector[Int]
   type Intent = Vector[Int]
-  type FormalContext = Vector[Vector[Int]]
+  type FormalContext = Vector[Intent]
   case class MetaData(intents: Map[Int, String], extents: Map[Int, String])
   case class FormalConcept(objs: Extent, attrs: Intent)
 }
